@@ -14,6 +14,7 @@ body {
 .banner-section {
   padding: 240px 0 145px;
   background: $bg-blue;
+  height: 100vh;
   .banner-detail {
     text-align: center;
     h1 {
@@ -25,3 +26,4 @@ body {
   }
 }
 
+@import '../style/footer.scss';

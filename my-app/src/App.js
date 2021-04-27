@@ -1,11 +1,12 @@
 import React from 'react'
-import '../src/assets/style/App.scss'
+import '../src/Assets/style/App.scss'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import {Route, Switch} from 'react-router-dom';
-import Header from './Parts/header'
+import Header from './Component/header'
 import Home from './Pages/Home'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
+import Footer from './Component/footer';
 
 const App = () => {
   return(
@@ -16,6 +17,7 @@ const App = () => {
       <Route path='/about' component={About}  />
       <Route path='/contact' component={Contact}  />
     </Switch>
+    <Footer />
     </>
   )
 }

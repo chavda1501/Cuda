@@ -18,3 +18,21 @@
         background: transparent;
     }
 }
+
+.section-title {
+    h1,h2,h3,h4,h5,h6 {
+        font-size: 40px;
+        line-height: 29px;
+        font-weight: 600;
+        color: $txt-white;
+        position: relative;
+        &::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            border: 2px solid #c86a40;
+            width: 20px;
+        }
+    }
+}
