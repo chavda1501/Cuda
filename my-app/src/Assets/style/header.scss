@@ -1,0 +1,29 @@
+.header {
+    position: absolute;
+    top: 58px;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: $bg-blue;
+    .navbar {
+      padding: 0;
+      .navbar-brand {
+        padding: 0;
+        margin: 0;
+      }
+      .nav-item {
+        padding: 0 15px;
+        .nav-link {
+          font-size: 16px;
+          line-height: 16px;
+          color: #fff;
+          padding: 10px 17px;
+          &:hover {
+            background: #643a79;
+            border-radius: 10px;
+            color: #fff;
+          }
+        }
+      }
+    }
+}

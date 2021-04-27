@@ -1,0 +1,38 @@
+.btn-orange {
+    border-radius: 8px;
+    padding: 14px 20px;
+    width: 290px;
+    background: $bg-orange;
+    font-weight: 400;
+    border-bottom: 2px solid #c86a40;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: $txt-white;
+    text-decoration: none !important;
+    border: 1px solid transparent;
+    &:hover {
+        color: $bg-orange;
+        border-color: $bg-orange;
+        background: transparent;
+    }
+}
+
+.section-title {
+    h1,h2,h3,h4,h5,h6 {
+        font-size: 40px;
+        line-height: 29px;
+        font-weight: 600;
+        color: $txt-white;
+        position: relative;
+        &::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            border: 2px solid #c86a40;
+            width: 20px;
+        }
+    }
+}
