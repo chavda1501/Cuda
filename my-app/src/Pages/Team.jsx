@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Team = (props) => {
     return(
@@ -10,13 +10,13 @@ const Team = (props) => {
             </div>
             <div className="team-detail">
                 <h2>{props.title}</h2>
-                <NavLink to="/">{props.link}</NavLink>
+                <Link to="/">{props.link}</Link>
                 <p>{props.data}</p>
                 <ul className="socail-icon">
-                    <li><NavLink to="/"><i className="fa fa-facebook" aria-hidden="true"></i></NavLink></li>
-                    <li><NavLink to="/"><i className="fa fa-twitter" aria-hidden="true"></i></NavLink></li>
-                    <li><NavLink to="/"><i className="fa fa-linkedin" aria-hidden="true"></i></NavLink></li>
-                    <li><NavLink to="/"><i className="fa fa-envelope" aria-hidden="true"></i></NavLink></li>
+                    <li><Link to=""><i className="fa fa-facebook" aria-hidden="true"></i></Link></li>
+                    <li><Link to=""><i className="fa fa-twitter" aria-hidden="true"></i></Link></li>
+                    <li><Link to=""><i className="fa fa-linkedin" aria-hidden="true"></i></Link></li>
+                    <li><Link to=""><i className="fa fa-envelope" aria-hidden="true"></i></Link></li>
                 </ul>
             </div>
         </div>
