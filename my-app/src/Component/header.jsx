@@ -4,8 +4,8 @@ import logo from '../Assets/img/logo.png'
 
 const Header = () => {
     return(
-        <>
-        <div className="header">
+       
+        <header className="header">
             <div className="container">
                 <nav className="navbar navbar-expand-lg">
                     <NavLink className="navbar-brand" to="/">
@@ -33,8 +33,8 @@ const Header = () => {
                     </div>
                 </nav>
             </div>
-        </div>
-        </>
+        </header>
+        
     )
 }
 export default Header;
