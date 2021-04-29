@@ -52,4 +52,74 @@ body {
   }
 }
 
+.team-section {
+  background-color: $bg-grey;
+  padding: 120px 0 160px;
+  text-align: center;
+  .section-title {
+    margin: 20px 0;
+    h2 {
+      color: $txt-blue;
+    }
+  }
+  .team-img {
+    img {
+      width: 200px;
+      height: 200px;
+      background: #878787;
+      border-radius: 50%;
+      object-fit: 'cover';
+      font-family: 'object-fit: 'cover'';
+    }
+  }
+  .team-detail {
+    h2 {
+      padding: 43px 0 0;
+    }
+    a {
+      font-size: 16px;
+      line-height: 18px;
+      color: #30bae7;
+      text-decoration: none !important;
+      margin: 16px 0 30px;
+      display: block;
+    }
+    p {
+      color: $txt-blue;
+      font-weight: 300;
+    }
+    .socail-icon {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+        li {
+          display: inline-block;
+          padding: 0 6px;
+          &:first-child {
+            padding-left: 0;
+          }
+          &:last-child {
+            padding-right: 0;
+          }
+          a {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: $bg-lightgrey;
+            display: block;
+            color: $txt-white;
+            font-size: 18px;
+            line-height: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &:hover {
+              background: $bg-blue;
+            }
+          }
+        }
+    }
+  }
+}
+
 @import '../style/footer.scss';
