@@ -26,4 +26,30 @@ body {
   }
 }
 
+.service-section {
+  background-color: $bg-green;
+  padding: 115px 0 130px;
+  margin-top: 110px;
+  .service-block {
+    text-align: center;
+    .serivce-img {
+      text-align: center;
+      margin: 0 auto;
+    }
+    .service-detail {
+      h2 {
+        color: $txt-white;
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 40px 0 20px;
+      }
+      p {
+        color: $txt-white;
+      }
+    }
+  }
+}
+
 @import '../style/footer.scss';
