@@ -7,6 +7,7 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
 import Footer from './Component/footer';
+import Work from './Pages/Work';
 
 const App = () => {
   return(
@@ -15,6 +16,7 @@ const App = () => {
     <Switch>
       <Route exact path='/' component={Home}  />
       <Route path='/about' component={About}  />
+      <Route path='/work' component={Work}  />
       <Route path='/contact' component={Contact}  />
     </Switch>
     <Footer />
