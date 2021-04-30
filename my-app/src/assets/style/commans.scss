@@ -46,3 +46,23 @@ p {
     line-height: 24px;
     margin: 0;
 }
+form {
+    .form-group {
+        margin-bottom: 27px;
+        .form-control {
+            height: 56px;
+            font-size: 18px;
+            line-height: 18px;
+            color: $txt-white;
+            box-shadow: none;
+            background: #273a71;
+            border: none;
+            &::placeholder {
+                color: $txt-white !important;
+            }
+        }
+        textarea {
+            height: 200px !important;
+        }
+    }
+}

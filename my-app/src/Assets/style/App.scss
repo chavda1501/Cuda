@@ -8,9 +8,6 @@
 body {
   font-family: 'Titillium Web', sans-serif !important;
 }
-.container {
-  max-width: 1170px;
-}
 .banner-section {
   padding: 240px 0 145px;
   background: $bg-blue;
@@ -120,6 +117,11 @@ body {
         }
     }
   }
+}
+
+.contact-section {
+  background: $bg-purple;
+  padding: 118px 0;
 }
 
 @import '../style/footer.scss';

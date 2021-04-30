@@ -4,8 +4,8 @@ import logo from '../Assets/img/logo.png'
 
 const Header = () => {
     return(
-        <>
-        <div className="header">
+       
+        <header className="header">
             <div className="container">
                 <nav className="navbar navbar-expand-lg">
                     <NavLink className="navbar-brand" to="/">
@@ -27,17 +27,14 @@ const Header = () => {
                             <NavLink activeClassName="menu-active" className="nav-link" to="/work">work</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink activeClassName="menu-active" className="nav-link" to="/">Blog</NavLink>
-                        </li>
-                        <li className="nav-item">
                             <NavLink activeClassName="menu-active" className="nav-link" to="/contact">Contact</NavLink>
                         </li>
                         </ul>
                     </div>
                 </nav>
             </div>
-        </div>
-        </>
+        </header>
+        
     )
 }
 export default Header;

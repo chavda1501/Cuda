@@ -1,25 +1,23 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return(
-        <>
-        <footer className="footer">
+       <footer className="footer">
             <div className="container">
                 <div className="f-menu">
                     <ul>
-                        <li><NavLink to="/">Facebook</NavLink></li>
-                        <li><NavLink to="/">Twitter</NavLink></li>
-                        <li><NavLink to="/">Google+</NavLink></li>
-                        <li><NavLink to="/">LinkedIn</NavLink></li>
-                        <li><NavLink to="/">Behance</NavLink></li>
-                        <li><NavLink to="/">Dribbble</NavLink></li>
-                        <li><NavLink to="/">GitHub</NavLink></li>
+                        <li><Link to="/">Facebook</Link></li>
+                        <li><Link to="/">Twitter</Link></li>
+                        <li><Link to="/">Google+</Link></li>
+                        <li><Link to="/">LinkedIn</Link></li>
+                        <li><Link to="/">Behance</Link></li>
+                        <li><Link to="/">Dribbble</Link></li>
+                        <li><Link to="/">GitHub</Link></li>
                     </ul>
                 </div>
             </div>
         </footer>
-        </>
     )
 }
 export default Footer;
