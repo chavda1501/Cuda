@@ -1,5 +1,5 @@
 import React from 'react'
-import Team from '../Pages/Team'
+import Team from '../Components/Team'
 import flag from '../Assets/img/flag.png'
 import pencil from '../Assets/img/pencil.png'
 import setting from '../Assets/img/setting.png'

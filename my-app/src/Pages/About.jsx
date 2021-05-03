@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './Card'
+import Card from '../Components/Card'
 import flag from '../Assets/img/flag.png'
 import pencil from '../Assets/img/pencil.png'
 import setting from '../Assets/img/setting.png'
